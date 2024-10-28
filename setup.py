@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pythest",  # Nom de ton package
-    version="0.1.0",  # Numéro de version
+    version="0.1.1",  # Numéro de version
     author="Ton Nom",
     author_email="ton.email@example.com",
     description="Bonjour",
