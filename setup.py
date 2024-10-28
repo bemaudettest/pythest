@@ -10,6 +10,11 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/bemaudettest/pythest",  # URL vers ton repo GitHub, par exemple
     packages=find_packages(),  # Trouve automatiquement tous les sous-modules
+    entry_points={
+        "console_scripts": [
+            "dire-bonjour=pythest.main:dire_bonjour",
+        ],
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
